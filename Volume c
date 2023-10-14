@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+float main()
+{
+    float r,h,pi;
+    float V;
+    scanf("%f",&r);
+    scanf("%f",&h);
+    pi = 3,14;
+    V = pi*(r*r)*h;
+    printf("%3.2f\n",V);
+    return 0;
+}
